@@ -1,3 +1,9 @@
+![Raw messy data – before cleaning](https://i.imgur.com/0nL5z8K.png)
+![Perfectly cleaned data – final result](https://i.imgur.com/8qWvR9p.png)
+![SPLIT formula to separate lat-long](https://i.imgur.com/ZfB0p4Y.png)
+![Removing duplicates in action](https://i.imgur.com/5e3oK7m.png)
+![Sorting by rating (Z to A)](https://i.imgur.com/8pL9vJt.png)
+![Fixing longitude sign using Paste Values Only](https://i.imgur.com/3xYk9sN.png)
 # San Francisco Bay Area Boba Tea Shops – Data Cleaning Project (Google Sheets Only)
 
 **607 messy rows → Spotless, analysis-ready dataset | Zero Python/SQL | Pure spreadsheet magic**
