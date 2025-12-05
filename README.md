@@ -27,7 +27,7 @@ Live Google Sheet (Raw → Clean): https://docs.google.com/spreadsheets/d/1arXpr
 
 ## Results
 From this:
-![Before](screenshots/before-cleaning.png)
+![Before](https://github.com/parvejxxxxx5-cmd/san-francisco-boba-tea-data-cleaning/blob/main/screenshots%3Abefore-cleaning.png)
 
 To this:
 ![After](screenshots/after-cleaning.png)
