@@ -6,7 +6,7 @@ Real-world data cleaning project: Transformed 607 messy rows of San Francisco Bo
 
 Transformed **607 messy rows** of real-world Boba Tea shop data from San Francisco into a **clean, analysis-ready dataset** using only Google Sheets and Excel formulas.
 
-Live Google Sheet (Raw → Clean): https://docs.google.com/spreadsheets/d/1_example_link/edit?usp=sharing  
+Live Google Sheet (Raw → Clean): https://docs.google.com/spreadsheets/d/1arXprImJklp8uReq_LwVcGQsA5lICZ-uMcqEm7sh4l0/edit?usp=sharing  
 (Replace with your actual shareable link – make sure "Anyone with link can view")
 
 ## Problem → Solution
