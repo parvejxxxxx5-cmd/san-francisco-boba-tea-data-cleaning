@@ -30,7 +30,7 @@ From this:
 ![Before](https://github.com/parvejxxxxx5-cmd/san-francisco-boba-tea-data-cleaning/blob/main/screenshots%3Abefore-cleaning.png)
 
 To this:
-![After](screenshots/after-cleaning.png)
+![After](https://github.com/parvejxxxxx5-cmd/san-francisco-boba-tea-data-cleaning/blob/main/screenshots%3Aafter-cleaning.png)
 
 → Ready for mapping, dashboarding (Looker Studio/Tableau), or geospatial analysis.
 
