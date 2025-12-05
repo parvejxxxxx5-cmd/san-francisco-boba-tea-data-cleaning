@@ -36,7 +36,7 @@ To this:
 
 ## Files in This Repo
 - `https://github.com/parvejxxxxx5-cmd/san-francisco-boba-tea-data-cleaning/blob/main/data%3Araw%3Asf_boba_tea_shops_raw.csv` → Original messy data
-- `data/clean/sf_boba_tea_shops_clean.csv` → Final clean version
+- `https://github.com/parvejxxxxx5-cmd/san-francisco-boba-tea-data-cleaning/blob/main/data%3Aclean%3Asf_boba_tea_shops_clean.csv` → Final clean version
 - `https://docs.google.com/spreadsheets/d/1arXprImJklp8uReq_LwVcGQsA5lICZ-uMcqEm7sh4l0/edit?usp=sharing` → Full workbook with all formulas visible
 - Live Google Sheet link in this README
 
@@ -53,4 +53,4 @@ Currently working towards **Google Data Analytics Professional Certificate** �
 ---
 Made with ☕ + 🧋 by Parvej Alam  
 IIT Madras | Google Data Analytics Certificate (in progress)  
-[LinkedIn](https://linkedin.com/in/parvejalam) | [GitHub](https://github.com/yourusername)
+[LinkedIn](https://linkedin.com/in/parvejalam) | [GitHub](https://github.com/parvejxxxxx5-cmd)
