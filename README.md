@@ -1,49 +1,56 @@
-![Raw messy data – before cleaning](https://i.imgur.com/0nL5z8K.png)
-![Perfectly cleaned data – final result](https://i.imgur.com/8qWvR9p.png)
-![SPLIT formula to separate lat-long](https://i.imgur.com/ZfB0p4Y.png)
-![Removing duplicates in action](https://i.imgur.com/5e3oK7m.png)
-![Sorting by rating (Z to A)](https://i.imgur.com/8pL9vJt.png)
-![Fixing longitude sign using Paste Values Only](https://i.imgur.com/3xYk9sN.png)
-# San Francisco Bay Area Boba Tea Shops – Data Cleaning Project (Google Sheets Only)
+# 🧋 San Francisco Boba Tea Shops – Data Cleaning Project (Google Sheets & Excel Only)
 
-**607 messy rows → Spotless, analysis-ready dataset | Zero Python/SQL | Pure spreadsheet magic**
+**No Python. No SQL. Just pure spreadsheet power.**
 
-Transformed real-world Boba Tea shop data using only Google Sheets formulas and built-in tools.
+Transformed **607 messy rows** of real-world Boba Tea shop data from San Francisco into a **clean, analysis-ready dataset** using only Google Sheets and Excel formulas.
 
-Live Google Sheet → Raw → Clean: https://docs.google.com/spreadsheets/d/1arXprImJklp8uReq_LwVcGQsA5lICZ-uMcqEm7sh4l0/edit?usp=sharing  
-(Put your shareable link here – set to "Anyone with the link can view")
+Live Google Sheet (Raw → Clean): https://docs.google.com/spreadsheets/d/1arXprImJklp8uReq_LwVcGQsA5lICZ-uMcqEm7sh4l0/edit?usp=sharing 
+(Replace with your actual shareable link – make sure "Anyone with link can view")
 
-## Before → After
+## Problem → Solution
 
-| Before (combined lat-long, duplicates, 9.0 ratings) | After (clean columns, correct coordinates, no duplicates) |
-|-------------------------------------------------------------|------------------------------------------------------------|
-| ![Before](https://i.imgur.com/0nL5z8K.png)                  | ![After](https://i.imgur.com/8qWvR9p.png)                   |
+| Issue                        | How I Fixed It                                | Formula/Tool Used                  |
+|-----------------------------|------------------------------------------------|------------------------------------|
+| Combined latitude/longitude | Split into separate columns                    | `SPLIT()`, `INDEX()`               |
+| Invalid ratings (>5.0)       | Detected and corrected 9 values                | `COUNTIF()`, `IFERROR()`           |
+| Wrong longitude signs        | Multiplied entire column by -1                 | Paste Values + simple multiplication |
+| Duplicates                   | Removed using built-in feature                 | Data → Remove duplicates           |
+| Inconsistent formatting  | Standardized using formulas & find/replace    | `PROPER()`, `TRIM()`, `TEXTJOIN()` |
 
-## Key Fixes & Techniques Shown
+## Key Functions Mastered & Used Daily Now
+- `VLOOKUP` / `XLOOKUP`
+- `INDEX` + `MATCH`
+- `FILTER`, `SORT`, `UNIQUE`
+- `QUERY`, `IMPORTRANGE`
+- `ARRAYFORMULA`, `LET`, `LAMBDA` (yes, even LAMBDA!)
+- `IFERROR`, `TEXTJOIN`, `SPLIT`
 
-- Split combined latitude-longitude → `=SPLIT(F2,"-")`  
-  ![SPLIT](https://i.imgur.com/ZfB0p4Y.png)
-- Removed duplicates (Data → Remove duplicates)  
-  ![Duplicates](https://i.imgur.com/5e3oK7m.png)
-- Corrected 9 invalid ratings (>5.0) using `COUNTIF` + manual fix
-- Fixed wrong longitude signs → multiplied column by -1 → Paste Values Only  
-  ![Longitude fix](https://i.imgur.com/3xYk9sN.png)
-- Sorting, filtering, formatting like a pro  
-  ![Sorting](https://i.imgur.com/8pL9vJt.png)
+## Results
+From this:
+![Before](screenshots/before-cleaning.png)
 
-## Functions I now use daily
-`XLOOKUP • INDEX/MATCH • FILTER • SORT • UNIQUE • QUERY • ARRAYFORMULA • LET • LAMBDA • IFERROR • TEXTJOIN • SPLIT • IMPORTRANGE`
+To this:
+![After](screenshots/after-cleaning.png)
 
-## Files
-- `data/raw/sf_boba_tea_shops_raw.csv`
-- `data/clean/sf_boba_tea_shops_clean.csv`
-- Full Google Sheet with all formulas visible (link above)
+→ Ready for mapping, dashboarding (Looker Studio/Tableau), or geospatial analysis.
 
-Google Data Analytics Certificate – In Progress  
-Currently mastering spreadsheets before moving to SQL Tableaux
+## Files in This Repo
+- `data/raw/sf_boba_tea_shops_raw.csv` → Original messy data
+- `data/clean/sf_boba_tea_shops_clean.csv` → Final clean version
+- `https://docs.google.com/spreadsheets/d/1arXprImJklp8uReq_LwVcGQsA5lICZ-uMcqEm7sh4l0/edit?usp=sharing` → Full workbook with all formulas visible
+- Live Google Sheet link in this README
 
-#DataCleaning #GoogleSheets #Excel #DataAnalyst #PortfolioProject #BobaTea
+## Why This Project Matters
+Recruiters love seeing **real-world messy data turned clean without Python**. This proves:
+- Attention to detail
+- Problem-solving with limited tools
+- Deep spreadsheet mastery (still the #1 tool in 90% of analyst roles)
+
+Currently working towards **Google Data Analytics Professional Certificate** 🎯
+
+#Excel #GoogleSheets #DataCleaning #DataAnalyst #SpreadsheetNinja #BobaTea
 
 ---
-Parvej Alam | IIT Madras  
-[LinkedIn](https://www.linkedin.com/in/parvejalam) | [GitHub](https://github.com/YourUsername)
+Made with ☕ + 🧋 by Parvej Alam  
+IIT Madras | Google Data Analytics Certificate (in progress)  
+[LinkedIn](https://linkedin.com/in/parvejalam) | [GitHub](https://github.com/yourusername)
