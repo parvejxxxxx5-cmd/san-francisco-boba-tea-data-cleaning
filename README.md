@@ -53,4 +53,4 @@ Currently working towards **Google Data Analytics Professional Certificate** �
 ---
 Made with ☕ + 🧋 by Parvej Alam  
 IIT Madras | Google Data Analytics Certificate (in progress)  
-[LinkedIn](www.linkedin.com/in/parvej-alam-7ba820384) | [GitHub](https://github.com/parvejxxxxx5-cmd)
+[LinkedIn](https://www.linkedin.com/in/parvej-alam-7ba820384/) | [GitHub](https://github.com/parvejxxxxx5-cmd)
