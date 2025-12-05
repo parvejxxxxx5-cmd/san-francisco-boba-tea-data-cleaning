@@ -35,7 +35,7 @@ To this:
 → Ready for mapping, dashboarding (Looker Studio/Tableau), or geospatial analysis.
 
 ## Files in This Repo
-- `data/raw/sf_boba_tea_shops_raw.csv` → Original messy data
+- `https://github.com/parvejxxxxx5-cmd/san-francisco-boba-tea-data-cleaning/blob/main/data%3Araw%3Asf_boba_tea_shops_raw.csv` → Original messy data
 - `data/clean/sf_boba_tea_shops_clean.csv` → Final clean version
 - `https://docs.google.com/spreadsheets/d/1arXprImJklp8uReq_LwVcGQsA5lICZ-uMcqEm7sh4l0/edit?usp=sharing` → Full workbook with all formulas visible
 - Live Google Sheet link in this README
